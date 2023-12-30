@@ -4,11 +4,12 @@ export default class Teachers extends Component {
   render() {
     return (
       <div>
-        <div className="it-team-3-area p-relative z-index pt-110 pb-90">
+    
+        <div className="it-team-3-area p-relative z-index pt-110 pb-90" >
           <div
             className="it-team-3-bg"
-            data-background="assets/img/team/bg-4.png"
-          />
+            style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/bg-4.png)` }}
+                      />
           <div className="container">
             <div className="row">
               <div className="col-xl-12">

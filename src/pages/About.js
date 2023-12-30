@@ -14,16 +14,14 @@ export default class About extends Component {
         <main>
           <PosterAbout />
           <AboutUs />
-
           <br />
           <br />
           <br />
-
           <Statistics />
+          <br />
           <Comments />
           <TopPopCourse />
           <Teachers />
-
           <FooterUp />
         </main>
       </div>
