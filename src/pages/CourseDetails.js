@@ -33,6 +33,7 @@ export default class CourseDetails extends Component {
               </div>
             </div>
           </div>
+          
           <div className="it-course-details-area pt-120 pb-100">
             <div className="container">
               <div className="row">

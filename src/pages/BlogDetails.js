@@ -14,7 +14,7 @@ export default class BlogDetails extends Component {
                 <div className="col-md-12">
                   <div className="it-breadcrumb-content z-index-3 text-center">
                     <div className="it-breadcrumb-title-box">
-                      <h3 className="it-breadcrumb-title">Service Details</h3>
+                      <h3 className="it-breadcrumb-title">Blog Details</h3>
                     </div>
                     <div className="it-breadcrumb-list-wrap">
                       <div className="it-breadcrumb-list">
@@ -22,7 +22,7 @@ export default class BlogDetails extends Component {
                           <a href="index.html">home</a>
                         </span>
                         <span className="dvdr">//</span>
-                        <span>Service Details</span>
+                        <span>Blog Details</span>
                       </div>
                     </div>
                   </div>
@@ -137,9 +137,12 @@ export default class BlogDetails extends Component {
                         <div className="it-sv-details-middle-thumb p-relative mb-30">
                           <img src="assets/img/service/sv-2.jpg" alt="" />
                           <a
-                            className="popup-video it-pulse"
-                            href="../../www.youtube.com/watcha6fd.html?v=PO_fBTkoznc"
-                          >
+  className="popup-video it-pulse"
+  href="https://www.youtube.com/watch?v=BFhiTl0LnQg"
+  title="YouTube video player"
+  target="_blank"
+  rel="noopener noreferrer"
+>
                             <i className="fa-sharp fa-solid fa-play" />
                           </a>
                         </div>
@@ -241,7 +244,7 @@ export default class BlogDetails extends Component {
                           <a href="#">Kimya</a>
                           <a href="#">Teknoloji</a>
                           <a href="#">Sosyal Bilimler</a>
-                          <a href="#">Din Kültürü</a>
+                          <a href="#">Din Kültürü & Ahlak Bilgisi</a>
                           <a href="#">Biyoloji</a>
                         </div>
                       </div>

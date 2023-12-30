@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 export default class Blogs extends Component {
   render() {
@@ -30,6 +31,7 @@ export default class Blogs extends Component {
       </div>
     </div>
   </div>
+
   <div className="postbox__area pt-120 pb-120">
     <div className="container">
       <div className="row">
@@ -56,7 +58,7 @@ export default class Blogs extends Component {
                     ante ipsum
                   </a>
                 </h4>
-                <a className="it-btn mt-15" href="#">
+                <Link className="it-btn mt-15" to="/blogDetails">
                   <span>
                     read more
                     <svg
@@ -84,7 +86,7 @@ export default class Blogs extends Component {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="postbox__thumb-box mb-80">
@@ -108,14 +110,6 @@ export default class Blogs extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="postbox__slider-arrow-wrap">
-                  <button className="postbox-arrow-prev">
-                    <i className="fa-solid fa-arrow-left" />
-                  </button>
-                  <button className="postbox-arrow-next">
-                    <i className="fa-solid fa-arrow-right" />
-                  </button>
-                </div>
               </div>
               <div className="postbox__content-box">
                 <div className="postbox__meta">
@@ -134,7 +128,7 @@ export default class Blogs extends Component {
                     tur is vel turpis
                   </a>
                 </h4>
-                <a className="it-btn mt-15" href="#">
+                <Link className="it-btn mt-15" to="/blogDetails">
                   <span>
                     read more
                     <svg
@@ -162,7 +156,7 @@ export default class Blogs extends Component {
                       />
                     </svg>
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="postbox__thumb-box">
@@ -186,7 +180,7 @@ export default class Blogs extends Component {
                     ante ipsum
                   </a>
                 </h4>
-                <a className="it-btn mt-15" href="#">
+                <Link className="it-btn mt-15" to="/blogDetails">
                   <span>
                     read more
                     <svg
@@ -214,7 +208,7 @@ export default class Blogs extends Component {
                       />
                     </svg>{" "}
                   </span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
