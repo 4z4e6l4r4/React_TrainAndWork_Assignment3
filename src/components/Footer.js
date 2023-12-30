@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 
 export default class Footer extends Component {
   render() {
-    return (
+
+    return ( this.props.isValid ?
       <div>
 
 <footer>
@@ -185,6 +186,6 @@ export default class Footer extends Component {
 
 
       </div>
-    )
+    : null)
   }
 }

@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
-    return (
+
+
+    
+    return (this.props.isValid ?
       <div>
         {/* <div id="preloader">
           <div className="preloader">
@@ -288,14 +291,17 @@ export default class Header extends Component {
                                 </ul>
                               </li>
 
-                          
-
                               <li>
                                 <Link to="/blog">Blog</Link>
                               </li>
 
-                              <li>
+                              <li className="has-dropdown">
                                 <Link to="/about">Hakkımızda</Link>
+                                <ul className="it-submenu submenu">
+                                  <li>
+                                    <Link to="/faqs">Sık Sorulan Sorular</Link>
+                                  </li>
+                                </ul>
                               </li>
 
              
@@ -368,6 +374,7 @@ export default class Header extends Component {
           </div>
         </header>
       </div>
+    : null
     );
   }
 }

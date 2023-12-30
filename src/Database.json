@@ -1,0 +1,65 @@
+{
+    "kurslar": [
+      {
+        "lessonName": "Matematik",
+        "slug": "matematik",
+        "count": 37,
+        "price": 100
+      },
+      {
+        "lessonName": "Fizik",
+        "slug": "fizik",
+        "count": 25,
+        "price": 120
+      },
+      {
+        "lessonName": "Kimya",
+        "slug": "kimya",
+        "count": 30,
+        "price": 90
+      },
+      {
+        "lessonName": "Biyoloji",
+        "slug": "biyoloji",
+        "count": 22,
+        "price": 110
+      },
+      {
+        "lessonName": "Tarih",
+        "slug": "tarih",
+        "count": 40,
+        "price": 80
+      },
+      {
+        "lessonName": "Coğrafya",
+        "slug": "cografya",
+        "count": 28,
+        "price": 95
+      },
+      {
+        "lessonName": "İngilizce",
+        "slug": "ingilizce",
+        "count": 35,
+        "price": 150
+      },
+      {
+        "lessonName": "Türkçe",
+        "slug": "turkce",
+        "count": 45,
+        "price": 75
+      },
+      {
+        "lessonName": "Edebiyat",
+        "slug": "edebiyat",
+        "count": 20,
+        "price": 130
+      },
+      {
+        "lessonName": "Müzik",
+        "slug": "muzik",
+        "count": 15,
+        "price": 200
+      }
+    ]
+  }
+  

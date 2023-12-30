@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Categories extends Component {
   render() {
@@ -12,15 +13,12 @@ export default class Categories extends Component {
               </div>
               <div className="row align-items-end">
                 <div className="col-xl-8 col-lg-8">
-                  
-                  <div className="it-category-title-box d-flex align-items-start flex-column"
-                 
-                  >
-                    <span className="it-section-subtitle">CATEGORIES</span>
+                  <div className="it-category-title-box d-flex align-items-start flex-column">
+                    <span className="it-section-subtitle">Kategoriler</span>
                     <h4 className="it-section-title">
-                      Browse By
+                      Kursları &nbsp;
                       <span className="p-relative">
-                        Categories
+                        Ziyaret Et
                         <svg
                           className="title-shape-2"
                           width={168}
@@ -40,11 +38,12 @@ export default class Categories extends Component {
                     </h4>
                   </div>
                 </div>
+
                 <div className="col-xl-4 col-lg-4">
                   <div className="it-category-button text-start text-md-end">
-                    <a className="it-btn" href="services-1.html">
+                    <Link className="it-btn" to="/course">
                       <span>
-                        All Categories
+                        Tüm Kurslar
                         <svg
                           width={17}
                           height={14}
@@ -70,343 +69,374 @@ export default class Categories extends Component {
                           />
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
+
             <div className="row">
-              <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div className="it-category-item text-center">
-                  <div className="it-category-icon">
-                    <span>
-                      <i className="flaticon-web-design" />
-                    </span>
-                  </div>
-                  <div className="it-category-text">
-                    <h4 className="it-category-title">Web Design</h4>
-                    <a href="course-details.html">
-                      25 Courses
+
+            <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
+              <Link to="/lessonUnits">
+                  <div className="it-category-item text-center">
+                    <div className="it-category-icon">
                       <span>
-                        <svg
-                          width={16}
-                          height={13}
-                          viewBox="0 0 16 13"
-                          fill="none"
-                          xmlns="../../www.w3.org/2000/svg.html"
-                        >
-                          <path
-                            d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M1 6.61816H15"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <i className="flaticon-web-design" />
                       </span>
-                    </a>
+                    </div>
+
+                    <div className="it-category-text">
+                      <h4 className="it-category-title">Matematik</h4>
+                      <Link to="/lessonUnits">
+                        37 Courses &nbsp;
+                        <span>
+                          <svg
+                            width={16}
+                            height={13}
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="../../www.w3.org/2000/svg.html"
+                          >
+                            <path
+                              d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M1 6.61816H15"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </div>
+              </Link>
               </div>
+
+
               <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div className="it-category-item text-center">
-                  <div className="it-category-icon">
-                    <span>
-                      <i className="flaticon-ux-design" />
-                    </span>
-                  </div>
-                  <div className="it-category-text">
-                    <h4 className="it-category-title">Graphic Design</h4>
-                    <a href="course-details.html">
-                      25 Courses
+              <Link to="/lessonUnits">
+                  <div className="it-category-item text-center">
+                    <div className="it-category-icon">
                       <span>
-                        <svg
-                          width={16}
-                          height={13}
-                          viewBox="0 0 16 13"
-                          fill="none"
-                          xmlns="../../www.w3.org/2000/svg.html"
-                        >
-                          <path
-                            d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M1 6.61816H15"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <i className="flaticon-ux-design" />
                       </span>
-                    </a>
+                    </div>
+                    <div className="it-category-text">
+                      <h4 className="it-category-title">Türkçe</h4>
+                      <Link to="/lessonUnits">
+                        25 Courses &nbsp;
+                        <span>
+                          <svg
+                            width={16}
+                            height={13}
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="../../www.w3.org/2000/svg.html"
+                          >
+                            <path
+                              d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M1 6.61816H15"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </div>
+              </Link>
               </div>
+
+
               <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div className="it-category-item text-center">
-                  <div className="it-category-icon">
-                    <span>
-                      <i className="flaticon-coding" />
-                    </span>
-                  </div>
-                  <div className="it-category-text">
-                    <h4 className="it-category-title">Personal Development</h4>
-                    <a href="course-details.html">
-                      25 Courses
+              <Link to="/lessonUnits">
+                  <div className="it-category-item text-center">
+                    <div className="it-category-icon">
                       <span>
-                        <svg
-                          width={16}
-                          height={13}
-                          viewBox="0 0 16 13"
-                          fill="none"
-                          xmlns="../../www.w3.org/2000/svg.html"
-                        >
-                          <path
-                            d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M1 6.61816H15"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <i className="flaticon-coding" />
                       </span>
-                    </a>
+                    </div>
+                    <div className="it-category-text">
+                      <h4 className="it-category-title">Fizik</h4>
+                      <Link to="/lessonUnits">
+                        16 Courses  &nbsp;
+                        <span>
+                          <svg
+                            width={16}
+                            height={13}
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="../../www.w3.org/2000/svg.html"
+                          >
+                            <path
+                              d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M1 6.61816H15"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </div>
+              </Link>
               </div>
+
+
               <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div className="it-category-item text-center">
-                  <div className="it-category-icon">
-                    <span>
-                      <i className="flaticon-mobile-development" />
-                    </span>
-                  </div>
-                  <div className="it-category-text">
-                    <h4 className="it-category-title">IT And Software</h4>
-                    <a href="course-details.html">
-                      25 Courses
+              <Link to="/lessonUnits">
+                  <div className="it-category-item text-center">
+                    <div className="it-category-icon">
                       <span>
-                        <svg
-                          width={16}
-                          height={13}
-                          viewBox="0 0 16 13"
-                          fill="none"
-                          xmlns="../../www.w3.org/2000/svg.html"
-                        >
-                          <path
-                            d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M1 6.61816H15"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <i className="flaticon-mobile-development" />
                       </span>
-                    </a>
+                    </div>
+                    <div className="it-category-text">
+                      <h4 className="it-category-title">Kimya</h4>
+                      <Link to="/lessonUnits">
+                        13 Courses &nbsp;
+                        <span>
+                          <svg
+                            width={16}
+                            height={13}
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="../../www.w3.org/2000/svg.html"
+                          >
+                            <path
+                              d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M1 6.61816H15"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </div>
+              </Link>
               </div>
+
+
               <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div className="it-category-item text-center">
-                  <div className="it-category-icon">
-                    <span>
-                      <i className="flaticon-promotion" />
-                    </span>
-                  </div>
-                  <div className="it-category-text">
-                    <h4 className="it-category-title">Seles Marketing</h4>
-                    <a href="course-details.html">
-                      25 Courses
+              <Link to="/lessonUnits">
+                  <div className="it-category-item text-center">
+                    <div className="it-category-icon">
                       <span>
-                        <svg
-                          width={16}
-                          height={13}
-                          viewBox="0 0 16 13"
-                          fill="none"
-                          xmlns="../../www.w3.org/2000/svg.html"
-                        >
-                          <path
-                            d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M1 6.61816H15"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <i className="flaticon-promotion" />
                       </span>
-                    </a>
+                    </div>
+                    <div className="it-category-text">
+                      <h4 className="it-category-title">Biyoloji</h4>
+                      <Link to="/lessonUnits">
+                        7 Courses &nbsp;
+                        <span>
+                          <svg
+                            width={16}
+                            height={13}
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="../../www.w3.org/2000/svg.html"
+                          >
+                            <path
+                              d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M1 6.61816H15"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </div>
+              </Link>
               </div>
+
               <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div className="it-category-item text-center">
-                  <div className="it-category-icon">
-                    <span>
-                      <i className="flaticon-art" />
-                    </span>
-                  </div>
-                  <div className="it-category-text">
-                    <h4 className="it-category-title">Art &amp; Humanities</h4>
-                    <a href="course-details.html">
-                      25 Courses
+                <Link to="/lessonUnits">
+                  <div className="it-category-item text-center">
+                    <div className="it-category-icon">
                       <span>
-                        <svg
-                          width={16}
-                          height={13}
-                          viewBox="0 0 16 13"
-                          fill="none"
-                          xmlns="../../www.w3.org/2000/svg.html"
-                        >
-                          <path
-                            d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M1 6.61816H15"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <i className="flaticon-art" />
                       </span>
-                    </a>
+                    </div>
+                    <div className="it-category-text">
+                      <h4 className="it-category-title">Sosyal Bilimler</h4>
+                      <Link to="/lessonUnits">
+                        9 Courses &nbsp;
+                        <span>
+                          <svg
+                            width={16}
+                            height={13}
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="../../www.w3.org/2000/svg.html"
+                          >
+                            <path
+                              d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M1 6.61816H15"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
+
               <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div className="it-category-item text-center">
-                  <div className="it-category-icon">
-                    <span>
-                      <i className="flaticon-mobile-development" />
-                    </span>
-                  </div>
-                  <div className="it-category-text">
-                    <h4 className="it-category-title">Mobile Application</h4>
-                    <a href="course-details.html">
-                      25 Courses
+                <Link to="/lessonUnits">
+                  <div className="it-category-item text-center">
+                    <div className="it-category-icon">
                       <span>
-                        <svg
-                          width={16}
-                          height={13}
-                          viewBox="0 0 16 13"
-                          fill="none"
-                          xmlns="../../www.w3.org/2000/svg.html"
-                        >
-                          <path
-                            d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M1 6.61816H15"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <i className="flaticon-mobile-development" />
                       </span>
-                    </a>
+                    </div>
+                    <div className="it-category-text">
+                      <h4 className="it-category-title">Teknoloji</h4>
+                      <Link to="/lessonUnits">
+                        12 Courses &nbsp;
+                        <span>
+                          <svg
+                            width={16}
+                            height={13}
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="../../www.w3.org/2000/svg.html"
+                          >
+                            <path
+                              d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M1 6.61816H15"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
+
               <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
-                <div className="it-category-item text-center">
-                  <div className="it-category-icon">
-                    <span>
-                      <i className="flaticon-bars" />
-                    </span>
-                  </div>
-                  <div className="it-category-text">
-                    <h4 className="it-category-title">
-                      Finance &amp; Accounting
-                    </h4>
-                    <a href="course-details.html">
-                      25 Courses
+                <Link to="/lessonUnits">
+                  <div className="it-category-item text-center">
+                    <div className="it-category-icon">
                       <span>
-                        <svg
-                          width={16}
-                          height={13}
-                          viewBox="0 0 16 13"
-                          fill="none"
-                          xmlns="../../www.w3.org/2000/svg.html"
-                        >
-                          <path
-                            d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                          <path
-                            d="M1 6.61816H15"
-                            stroke="currentcolor"
-                            strokeWidth="1.5"
-                            strokeMiterlimit={10}
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
+                        <i className="flaticon-bars" />
                       </span>
-                    </a>
+                    </div>
+                    <div className="it-category-text">
+                      <h4 className="it-category-title">
+                        Din Kültürü &amp; Ahlak Bilgisi
+                      </h4>
+                      <Link to="/lessonUnits">
+                        5 Courses
+                        <span>
+                          <svg
+                            width={16}
+                            height={13}
+                            viewBox="0 0 16 13"
+                            fill="none"
+                            xmlns="../../www.w3.org/2000/svg.html"
+                          >
+                            <path
+                              d="M10.334 1.01807L15.0007 6.61807L10.334 12.2181"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                            <path
+                              d="M1 6.61816H15"
+                              stroke="currentcolor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit={10}
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
+
           </div>
         </div>
       </div>
