@@ -12,7 +12,10 @@ export default class Categories extends Component {
               </div>
               <div className="row align-items-end">
                 <div className="col-xl-8 col-lg-8">
-                  <div className="it-category-title-box">
+                  
+                  <div className="it-category-title-box d-flex align-items-start flex-column"
+                 
+                  >
                     <span className="it-section-subtitle">CATEGORIES</span>
                     <h4 className="it-section-title">
                       Browse By

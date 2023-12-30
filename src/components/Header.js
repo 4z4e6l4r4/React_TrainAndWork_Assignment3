@@ -394,22 +394,22 @@ export default class Header extends Component {
                       </div>
 
                       <div className="col-xl-3 col-6">
-                        <div className="it-header-2-right d-flex align-items-center justify-content-end">
+                        <div className="it-header-2-right gap-5 d-flex align-items-center justify-content-end">
                           {/* LOGİN */}
-                          <div className="it-header-2-icon">
+                          <div className="it-header-2-icon d-md-block">
                             <a href="#">
                               <i className="fa-regular fa-user" />
                             </a>
                           </div>
 
                           {/* CART */}
-                          <div className="it-header-2-icon">
+                          <div className="it-header-2-icon d-md-block">
                             <a href="#">
                               <i className="fa-regular fa-cart-shopping" />
                             </a>
                           </div>
 
-                          <div className="it-header-2-button d-none d-md-block">
+                          <div className="d-none d-md-block">
                             <a className="it-btn" href="contact.html">
                               <span>
                                 İletişim
