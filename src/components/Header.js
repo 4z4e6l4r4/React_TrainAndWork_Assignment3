@@ -25,9 +25,9 @@ export default class Header extends Component {
               </button>
             </div>
             <div className="itoffcanvas__logo">
-              <a href="index.html">
+              <Link to="/">
                 <img src="assets/img/logo/logo-white.png" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="itoffcanvas__text">
               <p>
@@ -257,9 +257,9 @@ export default class Header extends Component {
                     <div className="row align-items-center">
                       <div className="col-xl-2 col-6">
                         <div className="it-header-2-logo">
-                          <a href="index.html">
+                          <Link to="/">
                             <img src="assets/img/logo/logo-black.png" alt="" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xl-7 d-none d-xl-block">
@@ -288,77 +288,7 @@ export default class Header extends Component {
                                 </ul>
                               </li>
 
-                              {/* <li className="has-dropdown">
-                                <a href="#">pages</a>
-                                <ul className="it-submenu submenu has-megamenu">
-                                  <li>
-                                    <a href="course-1.html">Course 01</a>
-                                  </li>
-                                  <li>
-                                    <a href="course-2.html">Course 02</a>
-                                  </li>
-                                  <li>
-                                    <a href="course-details.html">
-                                      Course Details
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="teacher.html">Teacher</a>
-                                  </li>
-                                  <li>
-                                    <a href="teacher-details.html">
-                                      Teacher Details
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="price.html">Price</a>
-                                  </li>
-                                  <li>
-                                    <a href="event.html">Event</a>
-                                  </li>
-                                  <li>
-                                    <a href="event-details.html">
-                                      Event Details
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="cart.html">Cart</a>
-                                  </li>
-                                  <li>
-                                    <a href="checkout.html">Checkout</a>
-                                  </li>
-                                  <li>
-                                    <a href="testimonial.html">Testimonial</a>
-                                  </li>
-                                  <li>
-                                    <a href="Instructor-registration.html">
-                                      Instructor Registration
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="student-registration-1.html">
-                                      Student Registration 01
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="student-registration-2.html">
-                                      Student Registration 02
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href="faq.html">Faq</a>
-                                  </li>
-                                  <li>
-                                    <a href="signin.html">Sign IN</a>
-                                  </li>
-                                  <li>
-                                    <a href="signup.html">Sign UP</a>
-                                  </li>
-                                  <li>
-                                    <a href="404.html">Error</a>
-                                  </li>
-                                </ul>
-                              </li> */}
+                          
 
                               <li>
                                 <Link to="/blog">Blog</Link>
@@ -368,9 +298,7 @@ export default class Header extends Component {
                                 <Link to="/about">Hakkımızda</Link>
                               </li>
 
-                              {/* <li>
-                                <a href="contact.html">X</a>
-                              </li> */}
+             
                             </ul>
                           </nav>
                         </div>
