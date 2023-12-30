@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
-export default class Cart extends Component {
+export default class _404 extends Component {
   render() {
     return (
-      <div>Cart</div>
+      <div>_404</div>
     )
   }
 }

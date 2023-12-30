@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import FooterUp from "../components/FooterUp";
-import Poster from "../components/HomeComponents.js/Poster";
-import Categories from "../components/HomeComponents.js/Categories";
-import TopPopCourse from "../components/HomeComponents.js/TopPopCourse";
-import AboutUs from "../components/HomeComponents.js/AboutUs";
-import ContactUs from "../components/HomeComponents.js/ContactUs";
-import Motivation from "../components/HomeComponents.js/Motivation";
-import BlogArea from "../components/HomeComponents.js/BlogArea";
+import Poster from "../components/Home/Poster";
+import Categories from "../components/Home/Categories";
+import TopPopCourse from "../components/Home/TopPopCourse";
+import AboutUs from "../components/Home/AboutUs";
+import ContactUs from "../components/Home/ContactUs";
+import Motivation from "../components/Home/Motivation";
+import BlogArea from "../components/Home/BlogArea";
 
 export default class extends Component {
   render() {
@@ -20,6 +20,7 @@ export default class extends Component {
           <ContactUs />
           <Motivation />
           <BlogArea />
+
           <FooterUp />
         </main>
       </div>

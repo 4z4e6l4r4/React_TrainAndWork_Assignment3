@@ -1,10 +1,10 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
     return (
       <div>
-        
         {/* <div id="preloader">
           <div className="preloader">
             <span />
@@ -248,7 +248,7 @@ export default class Header extends Component {
             </div> */}
 
             <br />
-            
+
             {/* Header */}
             <div id="header-sticky" className="it-header-2-area">
               <div className="container container-1380">
@@ -267,11 +267,11 @@ export default class Header extends Component {
                           <nav className="it-menu-content">
                             <ul>
                               <li>
-                                <a href="index.html">Anasayfa</a>
+                                <Link to="/">Anasayfa</Link>
                               </li>
 
                               <li className="has-dropdown">
-                                <a href="services-1.html">Kurslar</a>
+                                <Link to="/course">Kurslar</Link>
                                 <ul className="it-submenu submenu">
                                   <li>
                                     <a href="services-1.html">Matematik</a>
@@ -283,9 +283,7 @@ export default class Header extends Component {
                                     <a href="services-3.html">Fizik</a>
                                   </li>
                                   <li>
-                                    <a href="service-details.html">
-                                      Tüm Kurslar
-                                    </a>
+                                    <Link to="/course">Tüm Kurslar</Link>
                                   </li>
                                 </ul>
                               </li>
@@ -362,27 +360,12 @@ export default class Header extends Component {
                                 </ul>
                               </li> */}
 
-                              <li className="has-dropdown">
-                                <a href="blog-1.html">Blog</a>
-                                <ul className="it-submenu submenu">
-                                  {/* Düzenle */}
-                                  <li>
-                                    <a href="blog-1.html">Blog 01</a>
-                                  </li>
-                                  <li>
-                                    <a href="blog-2.html">BLog 02</a>
-                                  </li>
-                                  <li>
-                                    <a href="blog-sidebar.html">Blog Sidebar</a>
-                                  </li>
-                                  <li>
-                                    <a href="blog-details.html">Blog details</a>
-                                  </li>
-                                </ul>
+                              <li>
+                                <Link to="/blog">Blog</Link>
                               </li>
 
                               <li>
-                                <a href="about-us.html">Hakkımızda</a>
+                                <Link to="/about">Hakkımızda</Link>
                               </li>
 
                               {/* <li>
@@ -397,54 +380,56 @@ export default class Header extends Component {
                         <div className="it-header-2-right gap-5 d-flex align-items-center justify-content-end">
                           {/* LOGİN */}
                           <div className="it-header-2-icon d-md-block">
-                            <a href="#">
+                            <Link to="/loginRegister">
                               <i className="fa-regular fa-user" />
-                            </a>
+                            </Link>
                           </div>
 
                           {/* CART */}
                           <div className="it-header-2-icon d-md-block">
-                            <a href="#">
+                            <Link to="/cart">
                               <i className="fa-regular fa-cart-shopping" />
-                            </a>
+                            </Link>
                           </div>
 
-                          <div className="d-none d-md-block">
-                            <a className="it-btn" href="contact.html">
-                              <span>
-                                İletişim
-                                <svg
-                                  width={17}
-                                  height={14}
-                                  viewBox="0 0 17 14"
-                                  fill="none"
-                                  xmlns="../../www.w3.org/2000/svg.html"
-                                >
-                                  <path
-                                    d="M11 1.24023L16 7.24023L11 13.2402"
-                                    stroke="white"
-                                    strokeWidth="1.5"
-                                    strokeMiterlimit={10}
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                  <path
-                                    d="M1 7.24023H16"
-                                    stroke="white"
-                                    strokeWidth="1.5"
-                                    strokeMiterlimit={10}
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                  />
-                                </svg>
-                              </span>
-                            </a>
-                          </div>
-                          <div className="it-header-2-bar d-xl-none">
-                            <button className="it-menu-bar">
-                              <i className="fa-solid fa-bars" />
-                            </button>
-                          </div>
+                          <Link to="/contact">
+                            <div className="d-none d-md-block">
+                              <Link className="it-btn" to="/contact">
+                                <span>
+                                  İletişim
+                                  <svg
+                                    width={17}
+                                    height={14}
+                                    viewBox="0 0 17 14"
+                                    fill="none"
+                                    xmlns="../../www.w3.org/2000/svg.html"
+                                  >
+                                    <path
+                                      d="M11 1.24023L16 7.24023L11 13.2402"
+                                      stroke="white"
+                                      strokeWidth="1.5"
+                                      strokeMiterlimit={10}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                    />
+                                    <path
+                                      d="M1 7.24023H16"
+                                      stroke="white"
+                                      strokeWidth="1.5"
+                                      strokeMiterlimit={10}
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                    />
+                                  </svg>
+                                </span>
+                              </Link>
+                            </div>
+                            <div className="it-header-2-bar d-xl-none">
+                              <button className="it-menu-bar">
+                                <i className="fa-solid fa-bars" />
+                              </button>
+                            </div>
+                          </Link>
                         </div>
                       </div>
                     </div>
