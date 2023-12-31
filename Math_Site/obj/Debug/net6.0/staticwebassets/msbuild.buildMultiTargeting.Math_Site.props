@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Math_Site.props" />
+</Project>
