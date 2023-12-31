@@ -1,0 +1,36 @@
+/* BACKGROUND */
+.loginRegisterCss {
+  margin-top: -50px;
+  max-height: 85vh;
+  max-width: 170vh;
+  padding-top: 45px;
+  padding-bottom: 35px;
+
+  border-radius: 20px;
+  background: radial-gradient(
+    circle,
+    #eef8f6,
+    #def4f0,
+    #cdefe9,
+    #bdebe3,
+    #ade6dd,
+    #9de2d6,
+    #8cddd0,
+    #7cd9ca,
+    #6cd4c3,
+    #5bd0bd,
+    #4bcbb6,
+    #3bc7b0,
+    #2bc2aa,
+    #1abea3,
+    #0ab99d
+  );
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .loginRegisterCss {
+    animation: gradientAnimation 3s ease infinite; /* Animasyonu belirt */
+  }
+}

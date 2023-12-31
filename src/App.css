@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+/* LOGIN REGISTER */
+
+.login-register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* İsteğe bağlı: Kareye şekil vermek için stil */
+.bodersSquare {
+  border: 2px solid #1abea3;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.buttonSquare {
+  border: 2px solid #1abea3;
+  border-top: none;
+  margin-top: 10px;
+}
+
+.headerSquare {
+  margin-top: 10px;
+}
+
+.nav-tabs .nav-link {
+  color: #ffffff; /* Yazı rengi */
+  background-color: #1abea3d4; /* Arkaplan rengi */
+  border: 1px solid #0ab99c8f; /* Kenar rengi */
+}
+
+.nav-tabs .nav-link.active {
+  color: #ffffff; /* Aktif butonun yazı rengi */
+  background-color: #1abea3; /* Aktif butonun arkaplan rengi */
+  border: 1px solid #0ab99d; /* Aktif butonun kenar rengi */
+}
+
+

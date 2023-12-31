@@ -20,7 +20,6 @@ export default class extends Component {
           <ContactUs />
           <Motivation />
           <BlogArea />
-
           <FooterUp />
         </main>
       </div>
