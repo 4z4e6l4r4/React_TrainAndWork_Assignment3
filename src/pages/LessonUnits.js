@@ -164,7 +164,7 @@ export default class LessonUnits extends Component {
                         </span>
                       </div>
                       <div className="it-feature-text pt-30">
-                        <h4 className="it-feature-title">STRATEGI LOCATION</h4>
+                        <h4 className="it-feature-title"> 3. UNİTE</h4>
                         <p>
                           Lorem ipsum dolor amet, consectetur adipiscing elit,
                           sed eiusmod tempor incididunt ut labore et dolore

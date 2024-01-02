@@ -12,9 +12,7 @@ export default class LoginRegister extends Component {
               <Tab eventKey="login" title="Giriş">
                 <Form>
                   <Form.Group controlId="loginEmail">
-                    <Form.Label
-                    style={{marginTop: "10px"}}
-                    >Email</Form.Label>
+                    <Form.Label style={{ marginTop: "10px" }}>Email</Form.Label>
                     <Form.Control
                       className="bodersSquare"
                       type="email"
@@ -33,7 +31,10 @@ export default class LoginRegister extends Component {
 
                   <Button
                     className="buttonSquare"
-                    style={{ backgroundColor: '#1ABEA3', borderColor: '#1ABEA3' }}
+                    style={{
+                      backgroundColor: "#1ABEA3",
+                      borderColor: "#1ABEA3",
+                    }}
                     variant="success"
                     type="submit"
                   >
@@ -44,6 +45,7 @@ export default class LoginRegister extends Component {
 
               <Tab eventKey="register" title="Kayıt">
                 <Form>
+                  
                   <Form.Group controlId="registerName">
                     <Form.Label style={{ marginTop: "10px" }}>
                       Ad - Soyad
@@ -75,7 +77,10 @@ export default class LoginRegister extends Component {
 
                   <Button
                     className="buttonSquare"
-                    style={{ backgroundColor: '#1ABEA3', borderColor: '#1ABEA3' }}
+                    style={{
+                      backgroundColor: "#1ABEA3",
+                      borderColor: "#1ABEA3",
+                    }}
                     variant="success"
                     type="submit"
                   >
