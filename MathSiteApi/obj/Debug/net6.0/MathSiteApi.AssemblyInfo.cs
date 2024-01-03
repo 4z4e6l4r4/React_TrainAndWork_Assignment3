@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MathSiteApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec7b9d5e5c6385700d8489747ce94c7fd57b48dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34b36588f90f393b8f4aaf77fbbb3cf7d66cb7ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("MathSiteApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MathSiteApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
