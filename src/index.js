@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux'; // Redux Provider'ını import edin
-import store from './store'; // Oluşturduğunuz store'u import edin
+import store from './store/Store';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
