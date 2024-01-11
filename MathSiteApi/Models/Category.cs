@@ -1,6 +1,6 @@
-﻿namespace Math_Site.Models
+﻿namespace MathSiteApi.Models
 {
-    public class Blogs
+    public class Category
     {
         public int Id { get; set; }
         public string Name { get; set; }

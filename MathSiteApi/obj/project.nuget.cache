@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7mCT9g8CUoz1PVShUzlpq7TG3NM1lYNDmq2AagL9SZZjSHjFugIqLFMs8zTgiZYZYe7Tr/cdwp40BFQgTscw7A==",
+  "dgSpecHash": "4uWOyLOp1nSUuCKGXSmFeVlDYZ6T6ADr4AYtj213VY9cC6nhJumt/K/13oBC473wJ4ePczmyksrLmVwvPqh6oA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\Documents\\GitHub\\React_TrainAndWork_Assignment3\\MathSiteApi\\MathSiteApi.csproj",
   "expectedPackageFiles": [
@@ -52,11 +52,7 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
