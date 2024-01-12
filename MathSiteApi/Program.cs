@@ -20,7 +20,10 @@ namespace MathSiteApi
             builder.Services.AddScoped<ITokenService, TokenService>();
 
             // Add CourseService to DI container
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
             builder.Services.AddScoped<ICourseService, CourseService>();
+            builder.Services.AddScoped<IUniteService, UniteService>();
+            builder.Services.AddScoped<IBlogService, BlogService>();
 
 
             builder.Services.AddControllers();
