@@ -1,8 +1,8 @@
 using MathSiteApi.Data;
 using MathSiteApi.Models.Interfaces;
 using MathSiteApi.Models.Services;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.EntityFrameworkCore;
-
 
 namespace MathSiteApi
 {
@@ -14,16 +14,16 @@ namespace MathSiteApi
 
             // Add services to the container.
             builder.Services.AddDbContext<DataContext>(options =>
-                 options.UseSqlServer(builder.Configuration.GetConnectionString("MathSiteDbConnection")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("MathSiteDbConnection")));
 
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
 
-
+            // Add CourseService to DI container
+            builder.Services.AddScoped<ICourseService, CourseService>();
 
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
@@ -37,10 +37,7 @@ namespace MathSiteApi
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
-
             app.MapControllers();
 
             app.Run();
