@@ -32,54 +32,60 @@ const LoginRegister = () => {
 
   const handleLoginSubmit = async (e) => {
     e.preventDefault();
-  
+
     try {
-      const response = await fetch('http://localhost:7201', {
-        method: 'POST',
+      const response = await fetch("http://localhost:7201/api/Auth/LoginUser", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify(loginFormData),
+        body: JSON.stringify({
+          email: loginFormData.loginEmail,
+          password: loginFormData.loginPassword,
+        }),
       });
-  
+
       if (response.ok) {
-        console.log('Login successful');
+        console.log("Login successful");
         // Handle the success scenario as needed
       } else {
-        console.error('Login failed');
+        console.error("Login failed");
         // Handle the failure scenario as needed
       }
     } catch (error) {
-      console.error('Error during login API request', error);
+      console.error("Error during login API request", error);
       // Handle the error scenario as needed
     }
   };
-  
+
   const handleRegisterSubmit = async (e) => {
     e.preventDefault();
-  
+
     try {
-      const response = await fetch('http://localhost:7201', {
-        method: 'POST',
+      const response = await fetch("http://localhost:7201/api/Auth/Register", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify(registerFormData),
+        body: JSON.stringify({
+          name: registerFormData.registerName,
+          email: registerFormData.registerEmail,
+          password: registerFormData.registerPassword,
+        }),
       });
-  
+
       if (response.ok) {
-        console.log('Registration successful');
+        console.log("Registration successful");
         // Handle the success scenario as needed
       } else {
-        console.error('Registration failed');
+        console.error("Registration failed");
         // Handle the failure scenario as needed
       }
     } catch (error) {
-      console.error('Error during registration API request', error);
+      console.error("Error during registration API request", error);
       // Handle the error scenario as needed
     }
   };
-  
 
   return (
     <div className="container loginRegisterCss">
@@ -127,7 +133,9 @@ const LoginRegister = () => {
             <Tab eventKey="register" title="Kayıt">
               <Form onSubmit={handleRegisterSubmit}>
                 <Form.Group controlId="registerName">
-                  <Form.Label style={{ marginTop: "10px" }}>Ad - Soyad</Form.Label>
+                  <Form.Label style={{ marginTop: "10px" }}>
+                    Ad - Soyad
+                  </Form.Label>
                   <Form.Control
                     className="bodersSquare"
                     type="text"

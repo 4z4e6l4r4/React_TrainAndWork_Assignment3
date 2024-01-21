@@ -64,3 +64,5 @@ C:\Users\LENOVO\Documents\GitHub\React_TrainAndWork_Assignment3\MathSiteApi\obj\
 C:\Users\LENOVO\Documents\GitHub\React_TrainAndWork_Assignment3\MathSiteApi\obj\Debug\net6.0\MathSiteApi.pdb
 C:\Users\LENOVO\Documents\GitHub\React_TrainAndWork_Assignment3\MathSiteApi\obj\Debug\net6.0\MathSiteApi.genruntimeconfig.cache
 C:\Users\LENOVO\Documents\GitHub\React_TrainAndWork_Assignment3\MathSiteApi\obj\Debug\net6.0\ref\MathSiteApi.dll
+C:\Users\LENOVO\Documents\GitHub\React_TrainAndWork_Assignment3\MathSiteApi\bin\Debug\net6.0\Iyzipay.dll
+C:\Users\LENOVO\Documents\GitHub\React_TrainAndWork_Assignment3\MathSiteApi\bin\Debug\net6.0\Newtonsoft.Json.dll
